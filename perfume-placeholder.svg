@@ -1,0 +1,14 @@
+<svg width="800" height="800" viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="800" rx="40" fill="#0F0F10"/>
+  <rect x="220" y="170" width="360" height="460" rx="40" fill="#1A1A1D" stroke="#D4AF37" stroke-width="8"/>
+  <rect x="300" y="120" width="200" height="100" rx="24" fill="#252529" stroke="#D4AF37" stroke-width="6"/>
+  <rect x="335" y="80" width="130" height="60" rx="18" fill="#17171B" stroke="#D4AF37" stroke-width="5"/>
+  <rect x="270" y="220" width="260" height="260" rx="28" fill="#2B2B31" stroke="#F4D03F" stroke-width="4"/>
+  <path d="M340 320C340 280 372 248 412 248H420C460 248 492 280 492 320V332H340V320Z" fill="#F4D03F" fill-opacity="0.95"/>
+  <rect x="330" y="332" width="140" height="90" rx="16" fill="#D4AF37"/>
+  <circle cx="400" cy="377" r="44" fill="#0F0F10"/>
+  <circle cx="400" cy="377" r="24" fill="#F4D03F"/>
+  <path d="M338 560C338 525 366 497 401 497H399C434 497 462 525 462 560V598H338V560Z" fill="#D4AF37" fill-opacity="0.9"/>
+  <rect x="248" y="600" width="304" height="16" rx="8" fill="#D4AF37" fill-opacity="0.7"/>
+  <text x="400" y="670" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="34" fill="#F4D03F">عطر فاخر</text>
+</svg>

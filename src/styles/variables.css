@@ -1,0 +1,58 @@
+/* ==========================================================================
+   NAFHA LUXURY PERFUMES - CSS VARIABLES
+   ========================================================================== */
+
+:root {
+  /* Color Palette */
+  --bg-dark: #090909;
+  --bg-secondary: #111111;
+  --bg-card: #1A1A1A;
+  --bg-card-hover: #222222;
+  --bg-glass: rgba(18, 18, 18, 0.75);
+
+  /* Gold Accents */
+  --gold-primary: #D4AF37;
+  --gold-light: #F4D03F;
+  --gold-dark: #B8860B;
+  --gold-gradient: linear-gradient(135deg, #F4D03F 0%, #D4AF37 50%, #AA820A 100%);
+  --gold-glow: rgba(212, 175, 55, 0.25);
+  --gold-glow-strong: rgba(212, 175, 55, 0.5);
+
+  /* Typography Colors */
+  --text-white: #FFFFFF;
+  --text-muted: #AAAAAA;
+  --text-dim: #666666;
+  --text-gold: #D4AF37;
+
+  /* Borders & Dividers */
+  --border-dark: rgba(255, 255, 255, 0.08);
+  --border-glass: rgba(255, 255, 255, 0.12);
+  --border-gold: rgba(212, 175, 55, 0.35);
+  --border-gold-strong: rgba(212, 175, 55, 0.85);
+
+  /* Shadows */
+  --shadow-card: 0 12px 35px rgba(0, 0, 0, 0.6);
+  --shadow-card-hover: 0 20px 45px rgba(0, 0, 0, 0.8), 0 0 30px rgba(212, 175, 55, 0.15);
+  --shadow-gold: 0 8px 25px rgba(212, 175, 55, 0.35);
+  --shadow-gold-lg: 0 15px 40px rgba(212, 175, 55, 0.45);
+
+  /* Border Radii */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-full: 9999px;
+
+  /* Typography Fonts */
+  --font-heading: 'Cormorant Garamond', 'Cinzel', Georgia, serif;
+  --font-body: 'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif;
+
+  /* Transitions */
+  --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Layout Spacing */
+  --header-height: 85px;
+  --container-max-width: 1280px;
+}

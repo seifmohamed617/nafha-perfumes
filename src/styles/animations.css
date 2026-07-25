@@ -1,0 +1,136 @@
+/* ==========================================================================
+   NAFHA LUXURY PERFUMES - CSS ANIMATIONS & KEYFRAMES
+   ========================================================================== */
+
+/* Slow Gentle Floating */
+@keyframes float {
+  0% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-15px) rotate(2deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+}
+
+/* Floating Gold Particles */
+@keyframes goldParticleFloat {
+  0% {
+    transform: translateY(0) translateX(0) scale(0.8);
+    opacity: 0.2;
+  }
+  50% {
+    transform: translateY(-80px) translateX(25px) scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(-160px) translateX(-15px) scale(0.6);
+    opacity: 0;
+  }
+}
+
+/* Ambient Radial Glow Pulse */
+@keyframes pulseGlow {
+  0%, 100% {
+    opacity: 0.35;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.65;
+    transform: scale(1.15);
+  }
+}
+
+/* Luxury Smoke / Fragrance Cloud Drift */
+@keyframes smokeDrift {
+  0% {
+    transform: translate(0, 0) scale(1) rotate(0deg);
+    opacity: 0.15;
+  }
+  50% {
+    transform: translate(40px, -30px) scale(1.25) rotate(10deg);
+    opacity: 0.3;
+  }
+  100% {
+    transform: translate(-30px, 20px) scale(1) rotate(-5deg);
+    opacity: 0.15;
+  }
+}
+
+/* Slow Rotation for Fragrance Icons / Elements */
+@keyframes rotateSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Shimmer Light Reflection */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+/* Soft Bounce for Badges / Icons */
+@keyframes bounceSoft {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+/* Fade In Up Entrance */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Ripple Pulse for Golden Buttons */
+@keyframes buttonGlowPulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(212, 175, 55, 0.6);
+  }
+  70% {
+    box-shadow: 0 0 0 15px rgba(212, 175, 55, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(212, 175, 55, 0);
+  }
+}
+
+/* Class Utility Applications */
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 8s ease-in-out infinite;
+}
+
+.animate-smoke {
+  animation: smokeDrift 14s ease-in-out infinite;
+}
+
+.animate-rotate-slow {
+  animation: rotateSlow 25s linear infinite;
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s ease-out forwards;
+}

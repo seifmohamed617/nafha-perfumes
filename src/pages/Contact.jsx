@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Mail, Phone, MapPin, Send, Camera, Globe, MessageCircle } from 'lucide-react';
 import { Breadcrumb } from '../components/Breadcrumb';
 import { Button } from '../components/Button';
@@ -16,7 +16,7 @@ export function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (formData.name && formData.email && formData.message) {
-      addToast('Thank you for contacting Nafha Concierge. We will reply within 24 hours.', 'success');
+      addToast('شكراً على تواصلك! سنرد عليك في أقرب وقت ممكن.', 'success');
       setFormData({ name: '', email: '', subject: '', message: '' });
     }
   };
@@ -27,12 +27,12 @@ export function Contact() {
         <Breadcrumb items={[{ label: 'Contact Us' }]} />
 
         <div className="section-header">
-          <div className="section-subtitle">Private Client Care</div>
+          <div className="section-subtitle">تواصل معنا</div>
           <h1 style={{ fontFamily: 'var(--font-heading)', fontSize: '3rem' }}>
-            Get in Touch With Our Concierge
+            نحن هنا لمساعدتك
           </h1>
           <p className="section-description">
-            سواء كنت تحتاج نصيحة عن العطور أو طلبات خاصة أو مساعدة في الشحن، سيكون Concierge الخاص بنا جاهزًا لمساعدتك.
+            سواء كان عندك سؤال عن عطر، طلب خاص، أو مشكلة في الشحن — فريقنا جاهز يساعدك.
           </p>
         </div>
 
@@ -40,7 +40,7 @@ export function Contact() {
           {/* Left Store Details */}
           <div className="glass-card-gold" style={{ padding: '36px', borderRadius: 'var(--radius-lg)' }}>
             <h3 style={{ fontFamily: 'var(--font-heading)', fontSize: '1.8rem', color: 'var(--text-white)', marginBottom: '24px' }}>
-              فروعنا الرئيسية
+              فروعنا
             </h3>
 
             <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
@@ -48,7 +48,7 @@ export function Contact() {
                 <MapPin size={22} color="var(--gold-primary)" style={{ flexShrink: 0 }} />
                 <div>
                   <h4 style={{ fontSize: '1.1rem', color: 'var(--text-white)' }}>فرع باريس</h4>
-                  <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>28 Rue du Faubourg Saint-Honoré، 75008 باريس، فرنسا</p>
+                  <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>28 شارع فوبورج سانت هونوريه، باريس، فرنسا</p>
                 </div>
               </div>
 
@@ -56,7 +56,7 @@ export function Contact() {
                 <MapPin size={22} color="var(--gold-primary)" style={{ flexShrink: 0 }} />
                 <div>
                   <h4 style={{ fontSize: '1.1rem', color: 'var(--text-white)' }}>فرع دبي</h4>
-                  <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>Fashion Avenue، دبي مول، وسط المدينة، الإمارات</p>
+                  <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>دبي مول، دبي، الإمارات العربية المتحدة</p>
                 </div>
               </div>
 
@@ -64,21 +64,21 @@ export function Contact() {
                 <Mail size={22} color="var(--gold-primary)" style={{ flexShrink: 0 }} />
                 <div>
                   <h4 style={{ fontSize: '1.1rem', color: 'var(--text-white)' }}>البريد الإلكتروني</h4>
-                  <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>concierge@nafha-perfumes.com</p>
+                  <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>hello@nafha-perfumes.com</p>
                 </div>
               </div>
 
               <div style={{ display: 'flex', gap: '16px' }}>
                 <Phone size={22} color="var(--gold-primary)" style={{ flexShrink: 0 }} />
                 <div>
-                  <h4 style={{ fontSize: '1.1rem', color: 'var(--text-white)' }}>الخط الساخن</h4>
-                  <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>+20 100 000 0000 (من الأحد إلى الجمعة، 9 صباحًا إلى 8 مساءً)</p>
+                  <h4 style={{ fontSize: '1.1rem', color: 'var(--text-white)' }}>رقم التواصل</h4>
+                  <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>+20 100 000 0000 (الأحد – الجمعة، 9 صباحاً – 8 مساءً)</p>
                 </div>
               </div>
             </div>
 
             <div style={{ marginTop: '36px', paddingTop: '24px', borderTop: '1px solid var(--border-dark)' }}>
-              <h4 style={{ fontSize: '1rem', color: 'var(--gold-light)', marginBottom: '16px' }}>Connect With Us</h4>
+              <h4 style={{ fontSize: '1rem', color: 'var(--gold-light)', marginBottom: '16px' }}>تابعونا</h4>
               <div style={{ display: 'flex', gap: '12px' }}>
                 <a href="#instagram" className="social-icon" aria-label="Instagram"><Camera size={18} /></a>
                 <a href="#facebook" className="social-icon" aria-label="Facebook"><Globe size={18} /></a>
@@ -137,7 +137,7 @@ export function Contact() {
                 required
                 value={formData.message}
                 onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                placeholder="كيف يمكن لمستشارينا المساعدة اليوم؟"
+                placeholder="اكتب رسالتك هنا..."
                 className="form-input"
                 style={{ resize: 'vertical' }}
               />
@@ -170,9 +170,9 @@ export function Contact() {
           <div style={{ position: 'absolute', textAlign: 'center', padding: '20px' }}>
             <MapPin size={40} color="var(--gold-primary)" style={{ animation: 'bounceSoft 2s infinite' }} />
             <h3 style={{ fontFamily: 'var(--font-heading)', fontSize: '2rem', color: 'var(--text-white)' }}>
-              زور فروعنا حول العالم
+              فروعنا
             </h3>
-            <p style={{ color: 'var(--gold-light)' }}>باريس • دبي • لندن • نيويورك • طوكيو</p>
+            <p style={{ color: 'var(--gold-light)' }}>باريس • دبي</p>
           </div>
         </div>
       </div>

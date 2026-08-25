@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useNavigate } from 'react-router-dom';
 import { Sparkles, User, Heart, Users, Crown, Feather, Sun, Flame, Gem } from 'lucide-react';
 import { useProducts } from '../context/ProductsContext';
@@ -23,7 +23,7 @@ const categoryImages = {
   French: 'https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=800&q=80',
   Summer: 'https://images.unsplash.com/photo-1616949755610-8c9bbc08f138?auto=format&fit=crop&w=800&q=80',
   Winter: 'https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?auto=format&fit=crop&w=800&q=80',
-  'Luxury Collection': 'https://images.unsplash.com/photo-1563178406-4cdc2923acbc?auto=format&fit=crop&w=800&q=80'
+  'Luxury Collection': 'https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&w=800&q=80'
 };
 
 export function CategoryCard({ category }) {

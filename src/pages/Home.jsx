@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { useNavigate, Link } from 'react-router-dom';
+import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { ArrowRight, Sparkles, Shield, Truck, Award, Clock, ChevronDown, Camera } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { ProductCard } from '../components/ProductCard';
@@ -44,7 +44,7 @@ export function Home() {
     'https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&w=400&q=80',
     'https://images.unsplash.com/photo-1616949755610-8c9bbc08f138?auto=format&fit=crop&w=400&q=80',
     'https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=400&q=80',
-    'https://images.unsplash.com/photo-1563178406-4cdc2923acbc?auto=format&fit=crop&w=400&q=80'
+    'https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=400&q=80'
   ];
 
   return (
@@ -79,7 +79,7 @@ export function Home() {
               </h1>
 
               <p className="section-description" style={{ marginBottom: '36px', fontSize: '1.15rem' }}>
-                Immerse your senses in rare artisanal essences, hand-harvested Grasse roses, and 30-year aged Cambodian Oud. Crafted for those who command distinction.
+                عطور فاخرة مصنوعة من مكونات طبيعية أصلية — عود، ورد، وزعفران. ريحة تدوم، وجودة تحسسها من أول رشّة.
               </p>
 
               <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
@@ -297,8 +297,8 @@ export function Home() {
       <section style={{ padding: '90px 0' }}>
         <div className="container">
           <div className="section-header">
-            <div className="section-subtitle">Client Accolades</div>
-            <h2 className="section-title">Voices of Distinction</h2>
+            <div className="section-subtitle">آراء عملائنا</div>
+            <h2 className="section-title">ماذا يقولون عننا</h2>
             <div className="gold-divider" />
           </div>
 

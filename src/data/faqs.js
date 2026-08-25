@@ -1,27 +1,27 @@
 export const faqsList = [
   {
     id: 1,
-    question: "Are all Nafha perfumes crafted with authentic ingredients?",
-    answer: "Yes. Every Nafha fragrance is formulated in Grasse and Dubai using hand-harvested natural extracts, rare aged agarwood (Oud), genuine Rose absolute, and premium essential oils."
+    question: "هل عطور نفحة مصنوعة من مكونات طبيعية أصلية؟",
+    answer: "نعم. كل عطر من نفحة يُصنع باستخدام زيوت عطرية طبيعية أصلية، بما فيها العود الأصلي، وماء ورد الطائف، والصندل، والزعفران. لا نضيف مكونات اصطناعية تؤثر على جودة الرائحة."
   },
   {
     id: 2,
-    question: "What is the longevity and projection of your fragrances?",
-    answer: "Our fragrances are blended at high Eau de Parfum (20-25%) and Extrait de Parfum (30%+) concentrations, offering 10 to 14+ hours of persistent wear and remarkable sillage."
+    question: "كم تدوم رائحة عطور نفحة؟",
+    answer: "عطورنا مركّزة بنسبة عالية تتراوح بين 20% و30%، مما يجعل الريحة تثبت من 10 إلى 14 ساعة في الغالب وتترك أثراً لطيفاً على الملابس لفترة أطول."
   },
   {
     id: 3,
-    question: "Do you ship internationally?",
-    answer: "Yes, we provide complimentary worldwide express shipping on all orders over $150, complete with insured luxury gift box packaging."
+    question: "هل تشحنون خارج مصر؟",
+    answer: "نعم، نشحن لمعظم دول الخليج والعالم العربي. الشحن مجاني على الطلبات التي تتجاوز 150 دولار ويصل في عبوة آمنة ومناسبة للإهداء."
   },
   {
     id: 4,
-    question: "Can I receive complimentary samples with my order?",
-    answer: "Every full-bottle order includes two complimentary 2ml luxury discovery vials of our latest creations."
+    question: "هل يأتي مع الطلب عينات؟",
+    answer: "نعم، مع كل طلب زجاجة كاملة نرسل عينتين صغيرتين (2 مل) من عطورنا الجديدة، عشان تقدر تجرب أكثر من ريحة."
   },
   {
     id: 5,
-    question: "What is your return and exchange policy?",
-    answer: "We offer a 30-day risk-free return policy. If the sample bottle included in your package does not delight your senses, return the unopened full bottle for a full refund."
+    question: "ما سياسة الإرجاع عندكم؟",
+    answer: "لو العطر ما عجبك، تقدر ترجع الزجاجة غير المفتوحة خلال 30 يوم من تاريخ الاستلام وترجع ثمنها كامل."
   }
 ];
